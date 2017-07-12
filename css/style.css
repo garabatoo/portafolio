@@ -1,0 +1,319 @@
+body{
+	margin: 0;
+}
+.container{
+	background-image: url(../images/banner_01.jpg);
+	width: 1500px;
+	background-repeat: no-repeat;
+	margin-right: auto;
+	margin-left: auto;
+} 
+ 
+
+/*   HEADER */ 
+
+.header{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 70px;
+
+
+} 
+
+	.ape{
+		font-family: arial;
+	}
+
+.header__logo{
+	padding-top: 500px;
+	font-size: 100px;
+	color: #fff; 
+	font-family: helvetica;
+} 
+
+.nav{
+
+} 
+
+.menu{
+	width: 500px;
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+	padding:0; 
+
+} 
+
+.menu__item{
+	color: #212121; 
+
+} 
+.menu__link{
+	text-decoration: none; 
+	padding: 10px;
+	color: #fff; 
+	border-bottom: solid 2px transparent;
+  	transition: border-bottom-color 200ms; 
+} 
+
+	.menu__link:hover{
+    border-bottom-color: #000;  
+    width: 200px;
+  	background-color: #f72229;
+  	color: #000;
+  	}	
+
+
+/** MAIN **/
+
+.sobre__mi{
+	margin-top: 600px;
+} 
+	.sobre__yo{
+		
+	}
+	.sobre__sub1{
+		display: flex;
+		justify-content: space-around; 
+		align-items: center; 
+;
+
+	} 
+	
+	.sobre__subtitle{
+		font-family: arial; 
+		font-size: 30px;
+	}
+	.sobre__text{
+		width: 600px;
+	}
+	
+
+.sobre__sub2{
+	display: flex; 
+	justify-content: space-around; 
+	align-items: center;
+}
+	.sobre__diseño{
+		width: 314px;
+	} 
+
+	.servicios__title{
+		padding-top: 30px;
+		text-align: center; 
+		font-family: helvetica; 
+		font-size: 30px;
+	} 
+
+	.servi__img{
+		width: 900px; 
+		margin-right: auto;
+		margin-left: auto; 
+
+	}
+
+.banner{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+	.banner__prev,
+	.banner__next{
+		text-decoration: none;
+		display: inline-block;
+		background-color: #000;
+		color: #fff;
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+		text-align: center;
+		border-radius: 50%;
+		position: absolute;
+		top: 50%;
+		z-index: 1000;
+	}
+	.banner__prev{
+		left: 0;
+	}
+	.banner__next{
+		right: 0;
+	}
+
+
+
+.portafolio{
+	background-color: #000; 
+	margin-top: 100px; 
+	width: 100%; 
+	margin-left: auto;
+	margin-right: auto;
+} 
+
+	.portafolio__title{
+		text-align: center; 
+		font-family: helvetica; 
+		font-size: 30px; 
+		padding-top: 50px; 
+		color: #fff;
+	} 
+
+	.list{
+		display: inline-block;
+}
+	.portafolio__list{ 
+		padding-left: 90px;
+		margin-right: 80px;
+		margin-bottom: 30px;
+		list-style: none;
+		display: flex; 
+		justify-content: space-between;
+		flex-wrap: wrap; 
+
+} 
+
+	.portafolio__items{ 
+	margin-bottom: 40px;
+	filter: grayscale(1);
+  	transition: filter 400ms;
+  	border-radius: 100%;
+  	overflow: hidden;
+  	transition: transform 800ms, border-radius 200ms 300ms;
+	} 
+
+		.portafolio__items:hover{
+    	filter: grayscale(0);
+    	transform: rotate(360deg); /*scale(1.2);*/
+    	border-radius: 0;
+  		}
+
+.proyecto{
+	display: flex; 
+	justify-content: space-around; 
+	align-items: center;
+} 
+
+	.proyecto__title{ 
+		display: block;
+		text-align: center; 
+		font-size: 30px; 
+		font-family: helvetica; 
+		margin-top: 80px;
+	} 
+
+	.proyecto__sub1{
+	
+	} 
+
+	.sub__text{
+		width: 462px;
+	} 
+
+.exp__title{
+	text-align: center; 
+	font-size: 30px; 
+	font-family: helvetica; 
+	margin-top: 80px;
+} 
+
+	.exp__box{ 
+	padding-top: 50px;
+	padding-bottom: 50px;
+	display: flex; 
+	justify-content: center; 
+	align-items: flex-start;
+	} 
+
+
+/*** FOOTER **/
+
+.footer{
+	background-color: #212121; 
+	color: #999999;
+} 
+
+.foo__container{
+	width: 1200px; 
+	margin-right: auto;
+	margin-left: auto;
+}
+
+	.footer__primary{
+		display: flex; 
+		justify-content: space-between;
+	} 
+
+		.footer__primary__a{
+			width: 444px;
+		} 
+
+		.footer__primary__b{
+
+		display: flex; 
+		justify-content: space-between; 
+		width: 570px; 
+		}
+
+	.footer__secundary{
+		display: flex; 
+		justify-content: space-between;
+	} 
+
+		.footer__secundary__a{
+		text-align: center;
+		} 
+
+
+
+/* formulario */ 
+
+.contact-form{
+	display: flex; 
+	justify-content: space-between; 
+	flex-wrap: wrap;
+} 
+
+	.contact-form__field{
+		width: 200px; 
+		background-color: transparent; 
+		border: none; 
+		border-bottom: solid 1px #999999; 
+		color: inherit; 
+		padding: 5px 10px; 
+		outline: none;
+	} 
+
+		.contact-form__field:focus{
+			color: #fff; 
+			border-bottom-color: #fff;
+		}
+
+		.contact-form__field--full{
+			width: 100%;
+		}
+
+	.contact-form__btn{
+		border: none; 
+		background-color: transparent; 
+		cursor: pointer; 
+		color: inherit; 
+		
+	} 
+
+.foo__list{
+	list-style: none; 
+	text-decoration: none;
+}
+
+.foo__links{
+
+}
+
+
+.copy{
+	text-align: center;
+}
+
+
